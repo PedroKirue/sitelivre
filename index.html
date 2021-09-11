@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>FamousHype</title>
+
+
+<body>
+    <header>
+        <div id="logo"><img src="./imagens/logoAirjorge.png"/></div>   
+        <div id="ident"> <h1>FamousHype</h1></div>
+        <div id="icon-menu"><img src="./imagens/menu.png" /></div>
+        
+        <nav>
+            <ul>
+                <li><a href="">ínicio</a></i1>
+                <li><a href="">Vendas</a></i1>
+                <li><a href="">Sobre</a></i1> 
+                <li><a href="">Contatos</a></i1>  
+            </ul>
+        </nav>   
+    </header>
+    <div id="divBusca">
+        <img src="./imagens/lupa.png" alt="">
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+</div>
+    <div id="menuzin" >
+    <div id="menuzi"><img src="imagens/menuzin.png"></div>
+    <div id="botao"><img src="imagens/botaoHome.png"></div>
+    <div id="car"><img src="imagens/carrin.png"></div>
+</div>
+<main>
+    <h2>Air Jordan</h2>
+        <section id="imagens">
+
+            <div class="box"><img src="imagens/fearles.png">
+                <span id="isso">Air Jordan 1 High Fearless UNC Chicago 1878,90R$</span>
+            </div>
+            <div class="box"><img src="imagens/DarkMocha.png">
+                <span id="isso">Air Jordan 1 Retro High -Dark Mocha 3590,90R$</span>
+            </div>
+            <div class="box"><img src="imagens/offwhite.png">
+                <span id="isso">Nike x Off White Air Jordan 1 - UNC  11.953,59R$</span>
+            </div>
+            <div class="box"><img src="imagens/switchpurplepulse.png">
+                <span id="isso">Air Jordan 1 High Switch "Purple Pulse" 1285,90R$</span>
+
+        </section>
+        </div>
+    </main>
+     
+
+
+    <footer id="rodape">
+        Melhor SneakerShop online da atualidade.
+      </footer>
+    
+</body>
+<script>
+    let nav=document.querySelector("nav");
+    nav.style.display="none";
+    let icon=document.querySelector("#icon-menu")
+    icon.onclick=function(){
+        if(nav.style.display=="none")
+            nav.style.display="block"
+        else
+            nav.style.display="none"
+    }
+</script>
+</html>

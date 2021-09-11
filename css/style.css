@@ -1,0 +1,487 @@
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: #999;
+
+}
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+}
+
+header #logo{
+    width: 40px;
+}
+header #logo img{
+    width:100%;
+}
+
+header #ident{
+    width:95vw;
+}
+header #ident h1{
+    font-size:30px;
+    text-align:center;
+}
+header #icon-menu{
+    width:10vw;
+}
+header #icon-menu img{
+    width: 100%;
+}
+header h1{
+    color:#000000;
+    font-family: Arial;
+    font-size: 150%;
+}
+#divBusca{
+    background-color:#E0EEEE;
+    height:32px;
+  }
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+
+#divBusca img{
+    float:left;
+    width: 3vh;
+    height: 7vw;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+#divBusca{
+    display:flex;
+}
+#menuzin{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+#menuzi{
+    width: 30px;
+}
+div #menuzi img{
+    width:100%;
+}
+
+div #botao{
+    width:30px;
+}
+div #botao img{
+    width:100%;
+}
+div #car{
+    width:30px;
+}
+div #car img{
+    width: 100%;
+}
+main{  
+    color:#000000;
+    text-align:center;
+    font-family: Arial;
+    font-size: 28px;
+}
+div.box{
+    background-color:#FFFAFA ;
+}
+.box {
+	width: 40vw;
+    padding:5%;
+}
+.box img{
+    width: 90%;
+}
+#isso{
+    padding-top: 6vh;
+    font-size: 15px;
+}
+#imagens{
+    width: 295px;
+    height: 200px;
+    border: 0px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#imagens div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+nav{
+    position: absolute;
+    margin-top: 12vh;
+    width: 100vw;
+    background-color:#999;
+}      
+nav ul{
+        list-style: none;
+}
+nav ul li{
+        padding: 1vh 0 1vh 0;
+        border-bottom: 1px solid black;
+        padding-top: 3vh;
+        padding-bottom: 1vh;
+}
+nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size:24px ;
+        margin-left: 3vw;
+}
+@media only screen and (min-width: 980px){
+    body{
+        background-color: #999;
+    
+    }
+    .flex-container{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    header{
+        display:flex;
+        justify-content:center;
+    }
+    
+    header #logo{
+        width: 90px;
+    }
+    header #logo img{
+        width:100%;
+    }
+    
+    header #ident{
+        width: 95vw;
+    }
+    header #ident h1{
+        font-size:30px;
+        text-align:center;
+    }
+    header #icon-menu{
+        width:5vw;
+    }
+    header #icon-menu img{
+        width: 100%;
+    }
+    header h1{
+        color:#000000;
+        font-family: Arial;
+        font-size: 150%;
+    }
+    #divBusca{
+        background-color:#E0EEEE;
+        border-radius:0px;
+        width: 100%;
+        height:32px;
+      }
+    #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:5px;
+        font-size:18px;
+        border:none;
+        height:32px;
+        width:1500px;
+      }
+    
+    #divBusca img{
+        float:left;
+        width: 3vh;
+        height: 1.4vw;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+      
+    #divBusca{
+        display:flex;
+        justify-content:center;
+    }
+    #menuzin{
+        display:flex;
+        justify-content: space-around;
+    
+    }
+    
+    #menuzi{
+        padding-top: 5vh;
+        width: 30px;
+    }
+    div #menuzi img{
+        width:100%;
+    }
+    
+    div #botao{
+        padding-top: 5vh;
+        width:30px;
+    }
+    div #botao img{
+        width:100%;
+    }
+    div #car{
+        padding-top: 5vh;
+        width:30px;
+    }
+    div #car img{
+        width: 100%;
+    }
+    main{  
+        color:#000000;
+        text-align:center;
+        font-family: Arial;
+        font-size: 28px;
+    }
+    div .box{
+        background-color:#FFFAFA ;
+    }
+    .box {
+        width: 50vh;
+        padding:5%;
+    }
+    .box img{
+        width: 90%;
+        
+    }
+    #isso{
+        padding-top: 6vh;
+        font-size: 15px;
+    }
+    #imagens{
+        width: 108%;
+        height: 100px;
+        border: 0px solid #c3c3c3;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+    #imagens div{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+
+    }
+    nav{
+        position: absolute;
+        margin-top: 12vh;
+        width: 100vw;
+        background-color:#999;
+    }      
+    nav ul{
+            list-style: none;
+    }
+    nav ul li{
+            padding: 1vh 0 1vh 0;
+            border-bottom: 1px solid black;
+            padding-top: 3vh;
+            padding-bottom: 1vh;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size:24px ;
+        margin-left: 3vw;
+    }
+    footer{
+        background: #999;
+        width: 200%;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 100%;
+        padding-top: 4%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 640px){
+    body{
+        background-color: #999;
+    
+    }
+    .flex-container{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    header{
+        display:flex;
+        justify-content:center;
+    }
+    
+    header #logo{
+        width: 90px;
+    }
+    header #logo img{
+        width:100%;
+    }
+    
+    header #ident{
+        width: 95vw;
+    }
+    header #ident h1{
+        font-size:30px;
+        text-align:center;
+    }
+    header #icon-menu{
+        width:5vw;
+    }
+    header #icon-menu img{
+        width: 100%;
+    }
+    header h1{
+        color:#000000;
+        font-family: Arial;
+        font-size: 150%;
+    }
+    #divBusca{
+        background-color:#E0EEEE;
+        border-radius:0px;
+        width: 100%;
+        height:32px;
+      }
+    #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:5px;
+        font-size:18px;
+        border:none;
+        height:32px;
+        width:1500px;
+      }
+    
+    #divBusca img{
+        float:left;
+        width: 3vh;
+        height: 1.4vw;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+      
+    #divBusca{
+        display:flex;
+        justify-content:center;
+    }
+    #menuzin{
+        display:flex;
+        justify-content: space-around;
+    
+    }
+    
+    #menuzi{
+        padding-top: 5vh;
+        width: 30px;
+    }
+    div #menuzi img{
+        width:100%;
+    }
+    
+    div #botao{
+        padding-top: 5vh;
+        width:30px;
+    }
+    div #botao img{
+        width:100%;
+    }
+    div #car{
+        padding-top: 5vh;
+        width:30px;
+    }
+    div #car img{
+        width: 100%;
+    }
+    main{  
+        color:#000000;
+        text-align:center;
+        font-family: Arial;
+        font-size: 28px;
+    }
+    div .box{
+        background-color:#FFFAFA ;
+    }
+    .box {
+        width: 50vh;
+        padding:5%;
+    }
+    .box img{
+        width: 90%;
+        
+    }
+    #isso{
+        padding-top: 6vh;
+        font-size: 15px;
+    }
+    #imagens{
+        width: 108%;
+        height: 100px;
+        border: 0px solid #c3c3c3;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+    #imagens div{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+
+    }
+    nav{
+        position: absolute;
+        margin-top: 12vh;
+        width: 100vw;
+        background-color:#999;
+    }      
+    nav ul{
+            list-style: none;
+    }
+    nav ul li{
+            padding: 1vh 0 1vh 0;
+            border-bottom: 1px solid black;
+            padding-top: 3vh;
+            padding-bottom: 1vh;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size:24px ;
+        margin-left: 3vw;
+    }
+    footer{
+        background: #999;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 35%;
+        padding-top: 4%;
+    }
+}
